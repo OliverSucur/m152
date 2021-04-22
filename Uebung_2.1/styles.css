@@ -1,0 +1,48 @@
+h1 {
+    color: red;
+}
+
+.lead {
+    color: blue;
+}
+
+.text {
+    border: 1px solid yellow;
+}
+
+div > ul > li {
+    color: black;
+    text-decoration: underline;
+}
+
+div > ul > li:last-child {
+    font-weight: bold;
+}
+
+ul > li {
+    color: green;
+}
+
+ul > li:last-child {
+    font-weight: bold;
+}
+
+.long li {
+    color: blue;
+}
+
+.long>li:nth-child(2n){
+    color: red;
+}
+
+#name {
+    border-color: blue;
+}
+
+input[type=text] {
+    border-color: orange;
+}
+
+input[type=number]{
+    border-color: green;
+}
